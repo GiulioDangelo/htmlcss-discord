@@ -36,6 +36,8 @@ nav{
     align-items: center;
     list-style-type: none;
     padding-top: 6px;
+    padding-right: 90px;
+    
 }
 
 a{
@@ -48,7 +50,6 @@ a{
     padding: 10px;
     border-radius: 20px;
     border: none;
-    
 }
 
 h1{
@@ -84,6 +85,8 @@ h1{
     border-radius: 20px;
     color: white;
     background-color: black;
+    margin-left: 20px;
+    vertical-align: middle;
 }
 
 .box-container{
@@ -217,4 +220,51 @@ i{
     border-radius: 20px;
     border: none;
     background-color:#648AE8;
+    color: white;
+}
+
+/* decoration bonus */
+
+.login-nav:hover{
+    color: #648AE8;
+    box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+}
+
+a:hover{
+    text-decoration: underline; 
+}
+
+.logo-top:hover{
+    cursor: pointer;
+}
+
+.download:hover{
+    color: #648AE8;
+    box-shadow: 0 0 5px 0px rgb(0, 0, 0);
+}
+
+.open:hover{
+    box-shadow: 0 0 5px 0px rgb(0, 0, 0);
+}
+
+.download-bottom:hover{
+    background-color: rgb(143, 175, 254);
+    box-shadow: 0 0 5px 0px rgb(0, 0, 0);
+}
+
+.link-bottom:hover{
+    cursor: pointer;
+}
+
+.link-bottom li:hover{
+    text-decoration: underline;
+}
+
+.login-foot:hover{
+    background-color: rgb(143, 175, 254);
+    box-shadow: 0 0 5px 0px rgb(0, 0, 0);
+}
+
+.logo-bottom{
+    cursor: pointer;
 }
