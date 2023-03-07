@@ -16,7 +16,7 @@ nav{
     height: 2em;
     margin: auto;
     justify-content: space-between;
-    width: 70%;
+    flex: 0 0 80%;
     text-align: center;
 }
 
@@ -27,27 +27,20 @@ nav{
 
 ul{
     display: flex; 
-    color: white;
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
+    padding-top: 6px;
 }
 
 a{
+    color: white;
     text-decoration: none;
+    padding: 30px;
 }
 
-/* .logo{
-    text-align: left;
-} */
-
-/* .login{
-    text-align: right;
-} */
-
 .home{
-    background-image: url(img/jumbo.png);
-    background-size: contain;
+
     height: 700px;
     padding-top: 60px;
 }
