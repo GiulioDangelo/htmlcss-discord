@@ -107,19 +107,9 @@ a{
 
 .green-container{
     background-color: #D3D3D3;
-    height: 800px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-.green{
-    height: 90%;
-    width: 60%;
-    background-color: green;
-    max-width: 1200px;
-    margin:0 auto;
-}
 
 .footer-container{
     background-color: #23272A;
