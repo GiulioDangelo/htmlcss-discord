@@ -114,11 +114,24 @@ p{
     margin-top: 5px;
 }
 
+svg{
+    width: 100%;
+    color: rgba(211, 211, 211, 0.574);
+    display: block;
+}
+
+.wave-bottom{
+    transform: rotateX(180deg);
+    display: block;
+    margin-top: 1px;
+}
+
 .box-container2{
     height: 700px;
     display: flex;
     justify-content: center;
     align-items: center; 
+    background-color: rgba(211, 211, 211, 0.574);
 }
 
 .box-container2 .blu {
@@ -127,6 +140,7 @@ p{
 
 .green-container{
     text-align: center;
+    background-color:rgba(211, 211, 211, 0.574) ;
 }
 
 .star{
