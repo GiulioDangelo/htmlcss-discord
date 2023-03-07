@@ -40,6 +40,13 @@ a{
     padding: 30px;
 }
 
+.login-nav{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
 .home{
     height: 700px;
     text-align: center;
@@ -49,12 +56,26 @@ a{
     color: white;
 }
 
-.box-home{
-    /* background-color: #EE82EE;
-    height: 80% ;
-    width: 60%;
-    margin:0 auto; */
+.box-home{  
     max-width: 1200px;
+}
+
+p{
+    margin: 20px;
+    max-width: 600px;
+}
+
+.download{
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+}
+
+.open{
+    padding: 13px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
 }
 
 .box-container{
