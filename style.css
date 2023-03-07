@@ -11,6 +11,7 @@ header{
     flex-direction: column;
     background-image: url(img/jumbo.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 nav{
@@ -23,10 +24,10 @@ nav{
     text-align: center;
 }
 
-/* .nav-top{
+.nav-top{
    flex: 0 0 300px;
    margin-top: 7px;
-} */
+}
 
 ul{
     display: flex; 
@@ -43,16 +44,20 @@ a{
 }
 
 .home{
-
     height: 700px;
     padding-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .box-home{
-    background-color: #EE82EE;
+    /* background-color: #EE82EE;
     height: 80% ;
     width: 60%;
-    margin:0 auto;
+    margin:0 auto; */
     max-width: 1200px;
 }
 
