@@ -6,8 +6,11 @@
 
 header{
     background-color: aquamarine;
-    height: 4em; 
+    /* height: 4em;  */
     display: flex;
+    flex-direction: column;
+    background-image: url(img/jumbo.png);
+    background-size: contain;
 }
 
 nav{
