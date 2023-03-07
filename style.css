@@ -110,6 +110,20 @@ a{
     text-align: center;
 }
 
+.star{
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.download-bottom{
+    padding: 13px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color:#648AE8 ;
+    margin: 50px;
+}
 
 .footer-container{
     background-color: #23272A;
