@@ -111,7 +111,6 @@ p{
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: gray;
 }
 
 .box-container2 .blu {
@@ -119,7 +118,6 @@ p{
 }
 
 .green-container{
-    background-color: #D3D3D3;
     text-align: center;
 }
 
@@ -145,24 +143,21 @@ p{
 }
 
 .footer-info{
-    height: 600px;
     width: 60%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
     max-width: 1200px;
+    border-bottom:3px solid #648AE8;
 }
 
 .salmon{
-    background-color: salmon;
+   
     flex: 0 0 40%;
     height: 550px;
     max-width: 1200px;
 }
 
 .lightblue{
-    background-color: lightblue;
+    
     flex: 0 0 15%;
     height: 550px;
     max-width: 1200px;
@@ -174,32 +169,45 @@ p{
     display: flex;
     justify-content: center;
     align-items:flex-end;
-    margin-top: 2px;
 }
 
 .link-bottom{
     color: white;
     list-style-type: none;
+    padding: 25px;
+}
+
+.link-bottom li{
+    margin-top: 15px;
+}
+
+.violet-text{
+    color:#648AE8 ;
+}
+
+#bigger{
+    font-size: 35px;
+}
+
+.link-bottom img{
+    width: 20px;
+}
+
+i{
+    margin-right: 10px;
 }
 
 .nav-bottom{
-    background-color: aqua;
-    width: 60%;
-    height: 40px;
+    width: 45%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
 }
 
-.logo-bottom{
-    background-color: salmon;
-    width: 40px;
-    height: 20px;
-    
-}
-
-.button{
-    background-color: salmon;
-    width: 40px;
-    height: 20px;
+.login-foot{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color:#648AE8;
 }
