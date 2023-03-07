@@ -26,7 +26,7 @@ nav{
    margin-top: 7px;
 }
 
-ul{
+.link-top{
     display: flex; 
     justify-content: space-between;
     align-items: center;
@@ -45,6 +45,10 @@ a{
     border-radius: 20px;
     border: none;
     
+}
+
+h1{
+    font-size: 70px;
 }
 
 .home{
@@ -91,6 +95,15 @@ a{
 
 .container-text{
     max-width: 400px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 5px;
 }
 
 .box-container2{
@@ -162,6 +175,11 @@ a{
     justify-content: center;
     align-items:flex-end;
     margin-top: 2px;
+}
+
+.link-bottom{
+    color: white;
+    list-style-type: none;
 }
 
 .nav-bottom{
