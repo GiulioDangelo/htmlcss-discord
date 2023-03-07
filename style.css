@@ -12,16 +12,13 @@ header{
     background-image: url(img/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-size:cover; 
 }
 
 nav{
     display: flex;
-    background-color:orange;
-    height: 2em;
-    margin: auto;
-    justify-content: space-between;
-    flex: 0 0 80%;
-    text-align: center;
+    margin: 10px;
+    justify-content: space-around;
 }
 
 .nav-top{
@@ -45,7 +42,6 @@ a{
 
 .home{
     height: 700px;
-    padding-top: 60px;
     text-align: center;
     display: flex;
     justify-content: center;
