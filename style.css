@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header{
+    background-color: aquamarine;
+    height: 4em; 
+    display: flex;
+}
+
+nav{
+    display: flex;
+    background-color:orange;
+    height: 2em;
+    margin: auto;
+    justify-content: space-between;
+    width: 70%;
+    text-align: center;
+}
+
+/* .nav-top{
+   flex: 0 0 300px;
+   margin-top: 7px;
+} */
+
+ul{
+    display: flex; 
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .logo{
+    text-align: left;
+} */
+
+/* .login{
+    text-align: right;
+} */
+
+.home{
+    background-image: url(img/jumbo.png);
+    background-size: contain;
+    height: 700px;
+    padding-top: 60px;
+}
+
+.box-home{
+    background-color: #EE82EE;
+    height: 80% ;
+    width: 60%;
+    margin:0 auto;
+    max-width: 1200px;
+}
+
+.box-container{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink{
+    background-color: pink;
+    height: 80%;
+    flex: 0 0 20%;
+    max-width: 1200px;
+}
+
+.blu{
+    background-color: #1E90FF;
+    height: 80%;
+    flex: 0 0 40%;
+    max-width: 1200px;
+}
+
+.box-container2{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: gray;
+}
+
+.box-container2 .blu {
+    order: -1;
+}
+
+.green-container{
+    background-color: #D3D3D3;
+    height: 800px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    height: 90%;
+    width: 60%;
+    background-color: green;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.footer-container{
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;  
+}
+
+.footer-info{
+    height: 600px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    max-width: 1200px;
+}
+
+.salmon{
+    background-color: salmon;
+    flex: 0 0 40%;
+    height: 550px;
+    max-width: 1200px;
+}
+
+.lightblue{
+    background-color: lightblue;
+    flex: 0 0 15%;
+    height: 550px;
+    max-width: 1200px;
+}
+
+.container-nav{
+    background-color:#23272A ;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin-top: 2px;
+}
+
+.nav-bottom{
+    background-color: aqua;
+    width: 60%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-bottom{
+    background-color: salmon;
+    width: 40px;
+    height: 20px;
+    
+}
+
+.button{
+    background-color: salmon;
+    width: 40px;
+    height: 20px;
+}
