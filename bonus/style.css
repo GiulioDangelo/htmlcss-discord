@@ -17,6 +17,7 @@ header{
     background-image: url(img/jumbo.png);
     background-repeat: no-repeat;
     background-size:cover; 
+    background-position: center;
 }
 
 nav{
@@ -121,9 +122,8 @@ svg{
 }
 
 .wave-bottom{
-    transform: rotateX(180deg);
+    transform: rotateX(174deg);
     display: block;
-    margin-top: 2px;
 }
 
 .box-container2{
