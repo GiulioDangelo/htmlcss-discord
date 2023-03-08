@@ -123,7 +123,7 @@ svg{
 .wave-bottom{
     transform: rotateX(180deg);
     display: block;
-    margin-top: 1px;
+    margin-top: 2px;
 }
 
 .box-container2{
